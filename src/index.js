@@ -3,7 +3,7 @@ import './css/countries-list.css';
 import './css/country-info-card.css';
 import debounce from 'lodash.debounce';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
-import { fetchCountries } from './fetchCountries';
+import { fetchCountries } from './fetch';
 
 const DEBOUNCE_DELAY = 300;
 
